@@ -1,0 +1,354 @@
+.hero-left {
+  padding: 5rem 0 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8rem;
+  line-height: 10.5rem;
+  max-width: 55rem;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.045em;
+}
+
+.hero-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  padding-top: 10rem;
+}
+
+/* Music is meant to be experinced, not tolerated */
+.hero-caption p {
+  padding-top: 4.8rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+
+  /* identical to box height, or 2.4rem */
+  align-items: flex-end;
+}
+
+.hero-caption-para p {
+  max-width: 53rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 123.5%;
+  /* or 20rem */
+  letter-spacing: 0.01em;
+}
+
+.popularity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+/* Trusted by over 50K users worldwide since 2012 */
+.popularity-caption {
+  margin: 0 auto;
+  width: 34.3rem;
+  height: 8.4rem;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.03em;
+}
+
+.number-to-be-shown {
+  /* numbers-to-be-shown */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+
+  position: static;
+  width: 57.7rem;
+  height: 17.4rem;
+  right: 3rem;
+  top: calc(50% - 17.4rem / 2);
+
+  background: rgba(27, 27, 27, 0.05);
+  border-radius: 1.6rem;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0rem auto;
+}
+
+.number-count {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+
+  /* identical to box height */
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+
+.brands-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 13.6rem;
+}
+
+/* Classy Brands to chose from */
+.brands-info-container .brands-caption {
+  /* Inside auto layout */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.005em;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 9.8rem;
+}
+
+.cat-caption {
+  /* A range of Categories */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+
+  /* identical to box height */
+  letter-spacing: -0.03em;
+
+  /* main black color */
+  color: var(--main-color-black);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 4rem 0rem;
+}
+
+.cat-caption .blue-text {
+  font-weight: 600;
+}
+
+.cat-container {
+  /* cat-container */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0.8rem;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 4rem 0rem;
+}
+
+.cat-card {
+  /* on-earheadphones */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0rem;
+  width: 23rem;
+  cursor: pointer;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0rem 2.2rem;
+
+  border-radius: 1.6rem;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: all 400ms ease;
+  transition: all 500ms ease;
+}
+
+.cat-card:hover {
+  /* border: 1px solid var(--primary-color); */
+  transform: translate(0px, -5px);
+  scale: 105%;
+  box-shadow: 11px 11px 70px 35px rgba(206, 212, 224, 0.198);
+}
+
+.cat-card-image img {
+  position: static;
+  width: 22.3rem;
+  height: 22.3rem;
+  left: 0rem;
+  top: 0rem;
+
+  border-radius: 1.6rem;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 2.4rem 0rem;
+}
+
+.cat-card-caption {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+
+  /* identical to box height */
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 2.4rem 0;
+}
+
+.cat-card-seemore {
+  padding-bottom: 3rem;
+  margin-top: -1rem;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 9.8rem;
+}
+
+.mid-title {
+  /* The Latest Brands */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+
+  /* identical to box height */
+  letter-spacing: -0.03em;
+
+  /* main black color */
+  color: var(--main-color-black);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 4rem 0rem;
+}
+
+.mid-title .blue-text {
+  font-weight: 600;
+}
+
+.mid-small-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+
+  /* identical to box height */
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.03em;
+  justify-content: center;
+
+  /* main blue color */
+  color: #2780f2;
+}
+
+.brand-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  row-gap: 2rem;
+}
+
+.brand-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0rem;
+  width: 23rem;
+  cursor: pointer;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0rem 2.2rem;
+
+  border-radius: 1.6rem;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: all 400ms ease;
+  transition: all 500ms ease;
+}
+
+.brand-card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.6rem;
+}
+
+.brand-card:hover {
+  /* border: 1px solid var(--primary-color); */
+  transform: translate(0px, -5px);
+  scale: 105%;
+  box-shadow: 11px 11px 70px 35px rgba(206, 212, 224, 0.198);
+}

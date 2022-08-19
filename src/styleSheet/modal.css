@@ -1,0 +1,15 @@
+
+  
+  .ReactModal__Content{
+      margin-left: 250px;
+      position: absolute;
+      height: 600px;
+      width: 700px;
+      color: #5b8ab9;
+  }
+  .modal-title{
+     margin-right: 265px;
+  }
+  .error{
+    color:red;
+  }

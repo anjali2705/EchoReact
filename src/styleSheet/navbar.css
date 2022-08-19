@@ -1,0 +1,189 @@
+.para-rg {
+  font-size: 1.6rem;
+}
+
+.right-menu-set {
+  position: right;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  right: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+}
+
+.btn-rg {
+  text-decoration: none;
+  display: flex;
+  padding: 1rem 1.5rem;
+  margin: 1.25rem 0;
+  border-radius: 0.48rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  align-content: center;
+}
+
+/* solid primary */
+.btn-solid-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-solid-primary:hover {
+  background-color: var(--hover-primary-color);
+}
+
+/* outline primary */
+.btn-outline-primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  border: 1px solid var(--hover-primary-color);
+  background-color: var(--hover-primary-color);
+  color: var(--white);
+}
+
+.btn-close {
+  background: transparent url(../../public/close.svg) center/2.4em auto
+    no-repeat;
+  border: 1px solid transparent;
+  width: 3.4rem;
+  height: 3.4rem;
+  margin: 0.75rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.5;
+  cursor: pointer;
+  outline: none;
+  z-index: 1;
+}
+
+.secondary-navbar {
+  max-width: 90rem;
+  margin: 0 auto;
+  justify-content: center;
+  justify-items: center;
+}
+
+.secondary-nav {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: space-evenly;
+}
+
+.secondary-nav-item:not(:last-child) {
+  padding-right: 15rem;
+}
+.modal-cl {
+  top: 27px;
+  right: 27px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.logo-image {
+  height: 3.2rem;
+  padding-right: 2rem;
+}
+.navbar {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.nav-container {
+  height: 5rem;
+  margin: 0 auto;
+  max-width: 140rem;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.logo-image {
+  height: 3.2rem;
+  padding-right: 2rem;
+}
+
+.title-logo-typo {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.035em;
+  background: var(--logo-typo-gradident);
+  -webkit-text-fill-color: var(--primary-color);
+  text-decoration: none;
+}
+.title-logo-typo a {
+  text-decoration: none;
+}
+
+.navbar-links {
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.navbar-links-item {
+  text-decoration: none;
+}
+
+.navbar-links-item:not(:last-child) {
+  padding-right: 2rem;
+}
+
+.navbar-links-atag:hover {
+  border-radius: 50%;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  background-color: var(--primary-color-when-hovered);
+  transition: all ease-in-out 300ms;
+}
+
+.right-menu-set {
+  position: absolute;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  right: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+}
+
+.nav-profile-height img {
+  height: 4.4rem;
+}
+
+.nav-icons-small {
+  width: 100%;
+}
